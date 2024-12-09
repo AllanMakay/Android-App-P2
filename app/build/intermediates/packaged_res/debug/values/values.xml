@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="coffee_cream">#D7CCC8</color>
+    <color name="dark_brown">#4E342E</color>
+    <color name="deep_brown">#3E2723</color>
+    <color name="light_cream">#EFEBE9</color>
+    <color name="primaryColor">#FF6200EE</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Group3</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcomeLabel">Fall in Love with Coffee in Blissful Delight!</string>
+    <string name="welcomeLabelDesc">Welcome to our cozy coffee corner, where every cup is a delightful for you.</string>
+    <style name="Theme.KawaCafe" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/dark_brown</item>
+        <item name="colorPrimaryVariant">@color/deep_brown</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+
+        <item name="colorSecondary">@color/coffee_cream</item>
+        <item name="colorSecondaryVariant">@color/light_cream</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/coffee_cream</item>
+        <item name="android:colorAccent">@color/coffee_cream</item>
+
+
+    </style>
+</resources>
